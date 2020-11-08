@@ -6,7 +6,7 @@ videos.forEach(element => {
     console.log("yolo");
 
     element.addEventListener('click', function(){
-        screen.src = `./data/videos/${element.innerText}.mp4`;
+        screen.src = `/data/videos/${element.innerText}.mp4`;
         screen.play();
     })
 });
