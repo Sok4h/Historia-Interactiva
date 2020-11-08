@@ -13,7 +13,7 @@ body{
 main{
     width: 100%;
     height: 100%;
-    padding: 100px;
+    padding: 100px 300px;
 
     box-sizing:border-box;
 
@@ -23,7 +23,6 @@ main{
     background-color: whitesmoke;
 
     font-family: $Montserrat;
-    text-align: center;
     
     .imgs{
         position: relative;
@@ -60,6 +59,10 @@ span{
 
 h1{
     font-family: $Permanent;
+}
+
+a{
+    margin-top: 50px;
 }
 
 .hidden{
