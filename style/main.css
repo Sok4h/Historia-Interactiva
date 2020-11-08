@@ -24,24 +24,37 @@ main {
           align-items: center;
   background-color: whitesmoke;
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
-main .ana {
+main .imgs {
   position: relative;
 }
 
-main .ana span {
+main .imgs:hover span {
+  visibility: visible;
+}
+
+main .videos:hover {
+  cursor: pointer;
+}
+
+span {
   visibility: hidden;
   position: absolute;
   z-index: 1;
+  margin-top: 20px;
+  margin-left: -100%;
+  background-color: whitesmoke;
 }
 
-main .ana span img {
+span img {
   width: 100px;
 }
 
-main .ana:hover span {
-  visibility: visible;
+.screen {
+  max-height: 250px;
+  margin-top: 50px;
 }
 
 h1 {

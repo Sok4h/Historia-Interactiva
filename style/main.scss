@@ -23,21 +23,10 @@ main{
     background-color: whitesmoke;
 
     font-family: $Montserrat;
+    text-align: center;
     
-    .ana{
+    .imgs{
         position: relative;
-
-        span{
-            visibility: hidden;
-            position: absolute;
-            z-index: 1;
-
-
-            
-            img{
-                width: 100px;
-            }
-        }
 
         &:hover{
             span{
@@ -45,6 +34,28 @@ main{
             }
         }
     }
+
+    .videos:hover{
+        cursor: pointer;
+    }
+}
+
+span{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: -100%;
+    background-color: whitesmoke;
+    
+    img{
+        width: 100px;
+    }
+}
+
+.screen{
+    max-height: 250px;
+    margin-top: 50px;
 }
 
 h1{
